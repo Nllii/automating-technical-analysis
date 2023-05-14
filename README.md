@@ -19,4 +19,26 @@ The main point of any sort of asset trading is to make a profit. This boils down
 
 ``` pip install -e . ```
 
-```trade -h```
+```trade ```
+```bash
+usage: trade [-h] [-p] [-d] [-cd] [-ta TICKERS [TICKERS ...]] [-f QUICK] [-r RISK] [-i INTERVAL] [-asset ASSET]
+
+Automating Technical Analysis
+
+options:
+  -h, --help            show this help message and exit
+  -p, --path            show the path of the Automating Technical Analysis directory
+  -d, --null            verbose mode
+  -cd, --cddir          change directory to the Automating Technical Analysis directory
+  -ta TICKERS [TICKERS ...], --tickers TICKERS [TICKERS ...]
+                        Ticker symbols
+  -f QUICK, --quick QUICK
+                        just provide the ticker symbols and the program will do the rest using default values
+  -r RISK, --risk RISK  Risk level
+  -i INTERVAL, --interval INTERVAL
+                        Interval
+  -asset ASSET, --asset ASSET
+                        Asset type
+
+-v for verbose mode
+```
